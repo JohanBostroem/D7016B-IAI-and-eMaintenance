@@ -1,0 +1,34 @@
+# Datasets
+1 copyright ML-in-email-classification-main/
+
+# VS Code
+.vscode/
+
+# Local secrets like personal VirusTotal API key.
+.env
+.env.*
+!.env.example
+
+# Local VirusTotal URL cache
+evaluation_results/layer3/virustotal_url_cache.json
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model/cache files
+.cache/
+*.bin
+*.safetensors
+
+
+# Large generated evaluation output larger than 100MB
+/data/Phishing email dataset/phishing_email.csv

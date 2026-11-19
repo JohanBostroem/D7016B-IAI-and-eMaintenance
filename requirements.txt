@@ -1,0 +1,7 @@
+torch
+transformers
+pandas
+scikit-learn
+requests
+stix2
+python-dotenv>=1.0,<2.0
